@@ -1,3 +1,120 @@
-body{
-	background-color: yellow;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body, html{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
 }
+
+h1{
+	font-size: 50px;
+	font-weight: 800;
+
+}
+
+h3{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h4{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.hero-banner{
+	background-color: #007FFF;
+	height: 100vh;
+	padding: 50 20px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.hero-banner h1{
+	color: white;
+	margin: 14px 0 20px;
+}
+
+.hero-banner h3{
+	color: white;
+	margin: 0, 0, 35px;
+}
+
+.hero-banner h4,
+.hero-banner h4 a{
+	color: white;
+	margin: 0;
+	padding-top: 30pt;
+}
+
+.character1{
+	background: url('../img/blue.png') no-repeat 0 0;
+	background-size: 100%;
+	width: 340px;
+	height: 440px;
+	position: absolute; top: 157px; right: 115px;
+}
+
+.character2{
+	background: url(../img/yellow.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 280px;
+	height: 400px;
+	position: absolute; top: 185px; right: 280px;
+}
+
+.character3{
+	background: url(../img/green.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 250px;
+	height: 350px;
+	position: absolute; top: 330px; right: 35px;
+}
+
+a.cta.alt,
+button.cta{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background-color: #007FFF;
+	display: inline-block;
+	box-shadow: 0 0 0 10px rgba(0, 127, 255, 0.15);
+	padding: 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
+
+}
+
+a.cta.alt,
+button.cta.alt{
+	background-color: #FFD400;
+	color: #111111;
+	box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/*<div class="hero-banner">
+		<div class="wrapper">
+			<h4>Ben from <a href="https://www.xn--kangi-g9a.com/">Kōangi Communications</a> presents</h4>
+			<h1>The silliest &amp;<br/>
+			Most Awesome Gang<br/>
+		in the World!</h1>
+		<h3>It's the Circle Guy, Hat Guy &amp; Red Guy. <br/>
+		They're best of friends. </h3>
+		<a class="cta alt" href="#more-info">Read More</a>
+	</div>
+	<div class="character 1"></div>
+	<div class="character 2"></div>
+	<div class="character 3"></div>
+
+</div>
+
+*/
+
