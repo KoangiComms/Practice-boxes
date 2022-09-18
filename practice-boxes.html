@@ -31,7 +31,7 @@
 <nav>
 	<a href="#" class="logo">The Gang</a>
 	<ul>
-		<li><a href="#">Sign up</a></li>
+		<li><a href="javasscript:()" onclick="showPopup();">Sign up</a></li>
 		<li><a href="#story">The Story</a></li>
 		<li><a href="#more-info">More Info</a></li>
 	</ul>
@@ -42,7 +42,7 @@
 	<h2>Join our fan club</h2>
 	<p>Every week have have a<span class="highlight">BIG</span>party.<br/>
 		Only select individuals are invited. Follow us on instagram to get an invite.</p>
-		<button class="cta">Sign Me Up!</button>
+		<button class="cta" onclick="showPopup();">Sign Me Up!</button>
 	</div>
 </div>
 
@@ -86,6 +86,7 @@
 <div class="content">
 	<h2>Fill in your Details</h2>
 	<form action="">
+		<div class="row">
 		<div class="item">
 		<label for="">Your First Name</label>
 		<input type="text" placeholder="Awesome" value="Shirley">
@@ -94,6 +95,8 @@
 		<label for="">Your Last Name</label>
 		<input type="text" placeholder="Circle">
 		</div>
+		</div>
+		<div class="row">
 		<div class="item">
 		<label for="">Your Favourite Color</label>
 		<input type="text" placeholder="Red">
@@ -102,9 +105,10 @@
 		<label for="">Your Favourite Food</label>
 		<input type="text" placeholder="Apple Pie">
 		</div>
+		</div>
 		<button class="cta">I want in!</button>
 	</form>
-	<button class="close">Close</button>
+	<button class="close"> </button>
 </div>
 </div>
 
