@@ -27,13 +27,11 @@ h4{
 	height: 100vh;
 	padding: 50 20px;
 	box-sizing: border-box;
-	position: relative;
-	overflow: hidden;
 
 }
 
 .wrapper{
-	width: 960px;
+	width: 1100px;
 	margin: 0 auto;
 
 }
@@ -56,27 +54,31 @@ h4{
 }
 
 .character1{
-	background: url('../img/blue.png') no-repeat 0 0;
-	background-size: 100%;
 	width: 340px;
-	height: 440px;
-	position: absolute; top: 157px; right: 115px;
+    height: 440px;
+    position: absolute;
+    top: 157px;
+    right: 115px;
+    background: url(../img/blue.png) 0px 0px / 100% no-repeat;
+    transition: -webkit-clip-path 800ms cubic-bezier(0.4, 0, 0.2, 1) 0s, clip-path 800ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 
 .character2{
-	background: url(../img/yellow.png) no-repeat 0 0;
-	background-size: 100%;
 	width: 280px;
-	height: 400px;
-	position: absolute; top: 185px; right: 280px;
+    height: 400px;
+    position: absolute;
+    top: 185px;
+    right: 280px;
+    background: url(../img/yellow.png) 0px 0px / 100% no-repeat;
 }
 
 .character3{
-	background: url(../img/green.png) no-repeat 0 0;
-	background-size: 100%;
-	width: 250px;
-	height: 350px;
-	position: absolute; top: 330px; right: 35px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 330px;
+    right: 35px;
+    background: url(../img/green.png) 0px 0px / 100% no-repeat;
 }
 
 a.cta.alt,
@@ -100,21 +102,84 @@ button.cta.alt{
 	box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
-/*<div class="hero-banner">
-		<div class="wrapper">
-			<h4>Ben from <a href="https://www.xn--kangi-g9a.com/">Kōangi Communications</a> presents</h4>
-			<h1>The silliest &amp;<br/>
-			Most Awesome Gang<br/>
-		in the World!</h1>
-		<h3>It's the Circle Guy, Hat Guy &amp; Red Guy. <br/>
-		They're best of friends. </h3>
-		<a class="cta alt" href="#more-info">Read More</a>
-	</div>
-	<div class="character 1"></div>
-	<div class="character 2"></div>
-	<div class="character 3"></div>
+.sep{
 
-</div>
+}
 
-*/
+.nb-list{
+	width: 470px;
+	padding: 20px 20px 0 20px;
+	box-sizing: border-box;
+	background-color: #EDEDED;
+}
+
+.nb-list li{
+	height: 70px;
+	border-radius: 10px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 20px;
+	padding: 6px 20px;
+	box-sizing: border-box;
+}
+
+.nb-list li.blue{background-color: #007FFF;}
+.nb-list li.yellow{background-color: #FFD400;
+color: #111111;}
+.nb-list li.gray{background-color: rgba(0, 0, 0, 0.1);}
+.nb-list li.red{background-color: #FF3300;}
+.nb-list li.pink{background-color: #FFADF9;}
+.nb-list li.salmon{background-color: #FA8072;}
+
+/*div class="story" id="story">
+	<ul class="nb-list">
+		<li class="blue">Nineteen top Hats</li>
+		<li class="gray">&nbsp;</li> 
+		<li class=" yellow dragging">Yellow Nurples</li> 
+		<li class="red">Cheese that smells</li> 
+		<li class="pink">Forks and Spoons</li> 
+		<li class="salmon">Satanic dolls</li> 
+		<li class="blue">Wellness Retreats</li>
+		<li class="yellow">Porcupines</li> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
